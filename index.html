@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Ropa - Moda Exclusiva</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-100 text-gray-900">
+
+    <!-- HEADER -->
+    <header class="bg-gray-900 text-white py-4">
+        <div class="container mx-auto flex justify-between items-center px-4">
+            <div class="flex items-center space-x-3">
+                <img src="assets/logo.png.webp" alt="Moda Exclusiva" class="h-10">
+                <span class="text-2xl font-bold">Moda Exclusiva</span>
+            </div>
+            <nav class="hidden md:flex space-x-6">
+                <a href="#main" class="hover:text-gray-300">Inicio</a>
+                <a href="#products" class="hover:text-gray-300">Catálogo</a>
+                <a href="#footer" class="hover:text-gray-300">Contacto</a>
+            </nav>
+            <button class="md:hidden text-gray-300">☰</button>
+        </div>
+    </header>
+
+    <!-- MAIN -->
+    <main id="main" class="bg-gray-900 text-white text-center py-16">
+        <div class="container mx-auto">
+            <h1 class="text-4xl font-bold">Descubre Tu Estilo</h1>
+            <p class="mt-4 text-gray-300">Explora nuestra colección exclusiva de ropa y encuentra las mejores tendencias.</p>
+            <div class="mt-6">
+                <input type="email" placeholder="Ingresa tu correo" class="px-4 py-2 rounded-md text-gray-900">
+                <button class="bg-green-500 px-6 py-2 rounded-md text-white hover:bg-green-600">Suscribirse</button>
+            </div>
+        </div>
+    </main>
+
+    <!-- PRODUCTS -->
+    <section id="products" class="py-16 bg-white text-center">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold">Nuestra Colección</h2>
+            <div class="mt-6 grid grid-cols-1 md:grid-cols-3 gap-8 px-4">
+                <img src="assets/vestido-elegante.jpg.webp" alt="Vestido Elegante" class="mx-auto">
+                <img src="assets/look-casual.jpg.webp" alt="Look Casual" class="mx-auto">
+                <img src="assets/traje-formal.jpg.webp" alt="Traje Formal" class="mx-auto">
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="footer" class="bg-gray-900 text-white py-10 text-center text-lg">
+        <div class="container mx-auto">
+            <p class="text-gray-400">© 2025 Moda Exclusiva. Todos los derechos reservados.</p>
+            <div class="flex justify-center space-x-6 mt-6">
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
